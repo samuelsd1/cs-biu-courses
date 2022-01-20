@@ -1,0 +1,5 @@
+.idea/
+*.pyc
+files/
+train_files/
+ner_files/

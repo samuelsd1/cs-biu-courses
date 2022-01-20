@@ -1,0 +1,123 @@
+
+# Rules for creating full sentences.
+
+5	ROOT	S .
+2	ROOT	S !
+1	ROOT	is it true that S ?     # mixing terminals and nonterminals is ok.
+
+# The basic grammar rules.  Here's what the abbreviations stand for:
+#    S  = sentence
+#    NP = noun phrase
+#    VP = verb phrase
+#    PP = prepositional phrase
+#    Det = determiner (sometimes called "article")
+#    Prep = preposition
+#    JJ = adjective
+# - - - - - - - - - - - - - - - - - - - - - - - - -
+#	VPS = VP or VP Conj VP. Added it to support B
+#	SBAR = Complementary
+#	NN = noun. but smarter than just Noun :)
+#	
+#	VerbPast = verb in past form
+#	VerbPastTerminal = verb in past form, and the sentence can be finished after it. Those verbs
+#						dont have to have a following word.
+#	VerbPresent = verb in present form
+#	VerbPastFeel = Verb in past form, that describes a feeling about something. pleased, etc..
+#	VerbPastComp = Verb in the past that should have the word "that" as the following word. said that, etc...
+#
+#	LNoun = Living Noun. usually a persons name
+#
+#
+####################################################
+
+4	S	NP VPS
+2	S	NP is JJ		# (h) Sally is lazy
+1	S	it VerbPastFeel NP SBAR	# (e) it pissed off the teacher that ...
+
+#--------------------------
+6	VPS	VP
+1	VPS	VP Conj VP		# (b) wanted and ate...
+
+1	VP	VerbPast NP
+1	VP	is VerbPresent NP	# (i) Sally is eating a sandwich
+1	VP	VerbPastTerminal	# (c)
+1	VP	VerbPastTerminal Prep NP	# (g)
+1	VP	VerbPastComp SBAR	# (d)(j) thought that...
+
+1	SBAR	that S			# (d)(j) thought that
+
+
+#===========================
+# Handling NP's
+6	NP	NN
+1	NP	NN Conj NN		# (b) sally and president ...
+
+3	NN	Det Noun
+1	NN	LNoun
+#============================
+
+
+1	PP	Prep NP
+3	Noun	JJ Noun			# (f) very very
+
+# Vocabulary
+
+2	VerbPast	ate
+2	VerbPast	wanted
+1	VerbPast	kissed
+2	VerbPast	understood
+1	VerbPast	pickled
+
+1	VerbPastTerminal	sighed
+1	VerbPastTerminal	ate
+1	VerbPastTerminal	understood
+1	VerbPastTerminal	worked
+
+1	VerbPresent	eating
+1	VerbPresent	kissing
+1	VerbPresent	understanding
+1	VerbPresent	pickling
+
+1	VerbPastFeel	preplexed
+1	VerbPastFeel	calmed down
+1	VerbPastFeel	pissed off
+1	VerbPastFeel	annoyed
+1	VerbPastFeel	pleased
+
+# verbs that can be followed by "that". verb about something.
+# said that... thought that...
+1	VerbPastComp	understood
+1	VerbPastComp	thought
+1	VerbPastComp	realised
+1	VerbPastComp	said
+
+1	Det	the
+1	Det	a
+1	Det	every
+
+1	Noun	president
+1	Noun	sandwich
+1	Noun	pickle
+1	Noun	chief of staff
+1	Noun	floor
+1	Noun	desk
+
+1	LNoun	Sally
+1	LNoun	David
+1	LNoun	Juli
+1	LNoun	Gogi
+
+1	JJ	fine
+1	JJ	delicious
+1	JJ	perplexed
+1	JJ	pickled
+1	JJ	lazy
+1	JJ	very
+
+1	Prep	with
+1	Prep	on
+1	Prep	under
+1	Prep	in
+
+1	Conj	and
+1	Conj	or

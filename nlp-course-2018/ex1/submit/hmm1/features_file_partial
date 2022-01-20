@@ -1,0 +1,200 @@
+IN nw=an nnw=Oct. w=In
+DT pt=IN pw=In nw=Oct. nnw=19 w=an
+NNP pt=DT ppt=IN pw=an ppw=In nw=19 nnw=review ppt_pt=INDT w=Oct.
+CD pt=NNP ppt=DT pw=Oct. ppw=an nw=review nnw=of ppt_pt=DTNNP w=19
+NN pt=CD ppt=NNP pw=19 ppw=Oct. nw=of nnw=`` ppt_pt=NNPCD w=review
+IN pt=NN ppt=CD pw=review ppw=19 nw=`` nnw=The ppt_pt=CDNN w=of
+`` pt=IN ppt=NN pw=of ppw=review nw=The nnw=Misanthrope ppt_pt=NNIN w=``
+DT pt=`` ppt=IN pw=`` ppw=of nw=Misanthrope nnw='' ppt_pt=IN`` w=The
+NN pt=DT ppt=`` pw=The ppw=`` nw='' nnw=at ppt_pt=``DT pref1=M pref2=Mi pref3=Mis pref4=Misa suff4=rope hasNum=False hasUpper=True hasHyphen=False
+'' pt=NN ppt=DT pw=Misanthrope ppw=The nw=at nnw=Chicago ppt_pt=DTNN w=''
+IN pt='' ppt=NN pw='' ppw=Misanthrope nw=Chicago nnw='s ppt_pt=NN'' w=at
+NNP pt=IN ppt='' pw=at ppw='' nw='s nnw=Goodman ppt_pt=''IN w=Chicago
+POS pt=NNP ppt=IN pw=Chicago ppw=at nw=Goodman nnw=Theatre ppt_pt=INNNP w='s
+NNP pt=POS ppt=NNP pw='s ppw=Chicago nw=Theatre nnw=( ppt_pt=NNPPOS w=Goodman
+NNP pt=NNP ppt=POS pw=Goodman ppw='s nw=( nnw=`` ppt_pt=POSNNP pref1=T pref2=Th pref3=The pref4=Thea suff4=atre hasNum=False hasUpper=True hasHyphen=False
+( pt=NNP ppt=NNP pw=Theatre ppw=Goodman nw=`` nnw=Revitalized ppt_pt=NNPNNP w=(
+`` pt=( ppt=NNP pw=( ppw=Theatre nw=Revitalized nnw=Classics ppt_pt=NNP( w=``
+VBN pt=`` ppt=( pw=`` ppw=( nw=Classics nnw=Take ppt_pt=(`` pref1=R pref2=Re pref3=Rev pref4=Revi suff4=ized hasNum=False hasUpper=True hasHyphen=False
+NNS pt=VBN ppt=`` pw=Revitalized ppw=`` nw=Take nnw=the ppt_pt=``VBN pref1=C pref2=Cl pref3=Cla pref4=Clas suff4=sics hasNum=False hasUpper=True hasHyphen=False
+VBP pt=NNS ppt=VBN pw=Classics ppw=Revitalized nw=the nnw=Stage ppt_pt=VBNNNS w=Take
+DT pt=VBP ppt=NNS pw=Take ppw=Classics nw=Stage nnw=in ppt_pt=NNSVBP w=the
+NN pt=DT ppt=VBP pw=the ppw=Take nw=in nnw=Windy ppt_pt=VBPDT pref1=S pref2=St pref3=Sta pref4=Stag suff4=tage hasNum=False hasUpper=True hasHyphen=False
+IN pt=NN ppt=DT pw=Stage ppw=the nw=Windy nnw=City ppt_pt=DTNN w=in
+NNP pt=IN ppt=NN pw=in ppw=Stage nw=City nnw=, ppt_pt=NNIN pref1=W pref2=Wi pref3=Win pref4=Wind suff4=indy hasNum=False hasUpper=True hasHyphen=False
+NNP pt=NNP ppt=IN pw=Windy ppw=in nw=, nnw='' ppt_pt=INNNP w=City
+, pt=NNP ppt=NNP pw=City ppw=Windy nw='' nnw=Leisure ppt_pt=NNPNNP w=,
+'' pt=, ppt=NNP pw=, ppw=City nw=Leisure nnw=& ppt_pt=NNP, w=''
+NN pt='' ppt=, pw='' ppw=, nw=& nnw=Arts ppt_pt=,'' pref1=L pref2=Le pref3=Lei pref4=Leis suff4=sure hasNum=False hasUpper=True hasHyphen=False
+CC pt=NN ppt='' pw=Leisure ppw='' nw=Arts nnw=) ppt_pt=''NN w=&
+NNS pt=CC ppt=NN pw=& ppw=Leisure nw=) nnw=, ppt_pt=NNCC w=Arts
+) pt=NNS ppt=CC pw=Arts ppw=& nw=, nnw=the ppt_pt=CCNNS w=)
+, pt=) ppt=NNS pw=) ppw=Arts nw=the nnw=role ppt_pt=NNS) w=,
+DT pt=, ppt=) pw=, ppw=) nw=role nnw=of ppt_pt=), w=the
+NN pt=DT ppt=, pw=the ppw=, nw=of nnw=Celimene ppt_pt=,DT w=role
+IN pt=NN ppt=DT pw=role ppw=the nw=Celimene nnw=, ppt_pt=DTNN w=of
+NNP pt=IN ppt=NN pw=of ppw=role nw=, nnw=played ppt_pt=NNIN pref1=C pref2=Ce pref3=Cel pref4=Celi suff4=mene hasNum=False hasUpper=True hasHyphen=False
+, pt=NNP ppt=IN pw=Celimene ppw=of nw=played nnw=by ppt_pt=INNNP w=,
+VBN pt=, ppt=NNP pw=, ppw=Celimene nw=by nnw=Kim ppt_pt=NNP, w=played
+IN pt=VBN ppt=, pw=played ppw=, nw=Kim nnw=Cattrall ppt_pt=,VBN w=by
+NNP pt=IN ppt=VBN pw=by ppw=played nw=Cattrall nnw=, ppt_pt=VBNIN w=Kim
+NNP pt=NNP ppt=IN pw=Kim ppw=by nw=, nnw=was ppt_pt=INNNP pref1=C pref2=Ca pref3=Cat pref4=Catt suff4=rall hasNum=False hasUpper=True hasHyphen=False
+, pt=NNP ppt=NNP pw=Cattrall ppw=Kim nw=was nnw=mistakenly ppt_pt=NNPNNP w=,
+VBD pt=, ppt=NNP pw=, ppw=Cattrall nw=mistakenly nnw=attributed ppt_pt=NNP, w=was
+RB pt=VBD ppt=, pw=was ppw=, nw=attributed nnw=to ppt_pt=,VBD w=mistakenly
+VBN pt=RB ppt=VBD pw=mistakenly ppw=was nw=to nnw=Christina ppt_pt=VBDRB w=attributed
+IN pt=VBN ppt=RB pw=attributed ppw=mistakenly nw=Christina nnw=Haag ppt_pt=RBVBN w=to
+NNP pt=IN ppt=VBN pw=to ppw=attributed nw=Haag nnw=. ppt_pt=VBNIN pref1=C pref2=Ch pref3=Chr pref4=Chri suff4=tina hasNum=False hasUpper=True hasHyphen=False
+NNP pt=NNP ppt=IN pw=Christina ppw=to nw=. ppt_pt=INNNP pref1=H pref2=Ha pref3=Haa pref4=Haag suff4=Haag hasNum=False hasUpper=True hasHyphen=False
+. pt=NNP ppt=NNP pw=Haag ppw=Christina ppt_pt=NNPNNP w=.
+NNP nw=Haag nnw=plays w=Ms.
+NNP pt=NNP pw=Ms. nw=plays nnw=Elianti pref1=H pref2=Ha pref3=Haa pref4=Haag suff4=Haag hasNum=False hasUpper=True hasHyphen=False
+VBZ pt=NNP ppt=NNP pw=Haag ppw=Ms. nw=Elianti nnw=. ppt_pt=NNPNNP w=plays
+NNP pt=VBZ ppt=NNP pw=plays ppw=Haag nw=. ppt_pt=NNPVBZ pref1=E pref2=El pref3=Eli pref4=Elia suff4=anti hasNum=False hasUpper=True hasHyphen=False
+. pt=NNP ppt=VBZ pw=Elianti ppw=plays ppt_pt=VBZNNP w=.
+NNP nw=Motor nnw=Cars pref1=R pref2=Ro pref3=Rol pref4=Roll suff4=oyce hasNum=False hasUpper=True hasHyphen=True
+NNP pt=NNP pw=Rolls-Royce nw=Cars nnw=Inc. w=Motor
+NNPS pt=NNP ppt=NNP pw=Motor ppw=Rolls-Royce nw=Inc. nnw=said ppt_pt=NNPNNP pref1=C pref2=Ca pref3=Car pref4=Cars suff4=Cars hasNum=False hasUpper=True hasHyphen=False
+NNP pt=NNPS ppt=NNP pw=Cars ppw=Motor nw=said nnw=it ppt_pt=NNPNNPS w=Inc.
+VBD pt=NNP ppt=NNPS pw=Inc. ppw=Cars nw=it nnw=expects ppt_pt=NNPSNNP w=said
+PRP pt=VBD ppt=NNP pw=said ppw=Inc. nw=expects nnw=its ppt_pt=NNPVBD w=it
+VBZ pt=PRP ppt=VBD pw=it ppw=said nw=its nnw=U.S. ppt_pt=VBDPRP w=expects
+PRP$ pt=VBZ ppt=PRP pw=expects ppw=it nw=U.S. nnw=sales ppt_pt=PRPVBZ w=its
+NNP pt=PRP$ ppt=VBZ pw=its ppw=expects nw=sales nnw=to ppt_pt=VBZPRP$ w=U.S.
+NNS pt=NNP ppt=PRP$ pw=U.S. ppw=its nw=to nnw=remain ppt_pt=PRP$NNP w=sales
+TO pt=NNS ppt=NNP pw=sales ppw=U.S. nw=remain nnw=steady ppt_pt=NNPNNS w=to
+VB pt=TO ppt=NNS pw=to ppw=sales nw=steady nnw=at ppt_pt=NNSTO w=remain
+JJ pt=VB ppt=TO pw=remain ppw=to nw=at nnw=about ppt_pt=TOVB w=steady
+IN pt=JJ ppt=VB pw=steady ppw=remain nw=about nnw=1,200 ppt_pt=VBJJ w=at
+IN pt=IN ppt=JJ pw=at ppw=steady nw=1,200 nnw=cars ppt_pt=JJIN w=about
+CD pt=IN ppt=IN pw=about ppw=at nw=cars nnw=in ppt_pt=ININ pref1=1 pref2=1, pref3=1,2 pref4=1,20 suff4=,200 hasNum=True hasUpper=False hasHyphen=False
+NNS pt=CD ppt=IN pw=1,200 ppw=about nw=in nnw=1990 ppt_pt=INCD w=cars
+IN pt=NNS ppt=CD pw=cars ppw=1,200 nw=1990 nnw=. ppt_pt=CDNNS w=in
+CD pt=IN ppt=NNS pw=in ppw=cars nw=. ppt_pt=NNSIN w=1990
+. pt=CD ppt=IN pw=1990 ppw=in ppt_pt=INCD w=.
+DT nw=luxury nnw=auto w=The
+NN pt=DT pw=The nw=auto nnw=maker w=luxury
+NN pt=NN ppt=DT pw=luxury ppw=The nw=maker nnw=last ppt_pt=DTNN w=auto
+NN pt=NN ppt=NN pw=auto ppw=luxury nw=last nnw=year ppt_pt=NNNN w=maker
+JJ pt=NN ppt=NN pw=maker ppw=auto nw=year nnw=sold ppt_pt=NNNN w=last
+NN pt=JJ ppt=NN pw=last ppw=maker nw=sold nnw=1,214 ppt_pt=NNJJ w=year
+VBD pt=NN ppt=JJ pw=year ppw=last nw=1,214 nnw=cars ppt_pt=JJNN w=sold
+CD pt=VBD ppt=NN pw=sold ppw=year nw=cars nnw=in ppt_pt=NNVBD pref1=1 pref2=1, pref3=1,2 pref4=1,21 suff4=,214 hasNum=True hasUpper=False hasHyphen=False
+NNS pt=CD ppt=VBD pw=1,214 ppw=sold nw=in nnw=the ppt_pt=VBDCD w=cars
+IN pt=NNS ppt=CD pw=cars ppw=1,214 nw=the nnw=U.S. ppt_pt=CDNNS w=in
+DT pt=IN ppt=NNS pw=in ppw=cars nw=U.S. ppt_pt=NNSIN w=the
+NNP pt=DT ppt=IN pw=the ppw=in ppt_pt=INDT w=U.S.
+NNP nw=Mosher nnw=, w=Howard
+NNP pt=NNP pw=Howard nw=, nnw=president pref1=M pref2=Mo pref3=Mos pref4=Mosh suff4=sher hasNum=False hasUpper=True hasHyphen=False
+, pt=NNP ppt=NNP pw=Mosher ppw=Howard nw=president nnw=and ppt_pt=NNPNNP w=,
+NN pt=, ppt=NNP pw=, ppw=Mosher nw=and nnw=chief ppt_pt=NNP, w=president
+CC pt=NN ppt=, pw=president ppw=, nw=chief nnw=executive ppt_pt=,NN w=and
+JJ pt=CC ppt=NN pw=and ppw=president nw=executive nnw=officer ppt_pt=NNCC w=chief
+NN pt=JJ ppt=CC pw=chief ppw=and nw=officer nnw=, ppt_pt=CCJJ w=executive
+NN pt=NN ppt=JJ pw=executive ppw=chief nw=, nnw=said ppt_pt=JJNN w=officer
+, pt=NN ppt=NN pw=officer ppw=executive nw=said nnw=he ppt_pt=NNNN w=,
+VBD pt=, ppt=NN pw=, ppw=officer nw=he nnw=anticipates ppt_pt=NN, w=said
+PRP pt=VBD ppt=, pw=said ppw=, nw=anticipates nnw=growth ppt_pt=,VBD w=he
+VBZ pt=PRP ppt=VBD pw=he ppw=said nw=growth nnw=for ppt_pt=VBDPRP w=anticipates
+NN pt=VBZ ppt=PRP pw=anticipates ppw=he nw=for nnw=the ppt_pt=PRPVBZ w=growth
+IN pt=NN ppt=VBZ pw=growth ppw=anticipates nw=the nnw=luxury ppt_pt=VBZNN w=for
+NNS pt=DT ppt=VB pw=the ppw=fly nw=. ppt_pt=VBDT w=airplanes
+. pt=NNS ppt=DT pw=airplanes ppw=the ppt_pt=DTNNS w=.
+IN nw=they nnw=were w=If
+PRP pt=IN pw=If nw=were nnw=to w=they
+VBD pt=PRP ppt=IN pw=they ppw=If nw=to nnw=insist ppt_pt=INPRP w=were
+TO pt=VBD ppt=PRP pw=were ppw=they nw=insist nnw=on ppt_pt=PRPVBD w=to
+VB pt=TO ppt=VBD pw=to ppw=were nw=on nnw=a ppt_pt=VBDTO w=insist
+IN pt=VB ppt=TO pw=insist ppw=to nw=a nnw=low ppt_pt=TOVB w=on
+DT pt=IN ppt=VB pw=on ppw=insist nw=low nnw=bid ppt_pt=VBIN w=a
+JJ pt=DT ppt=IN pw=a ppw=on nw=bid nnw=of ppt_pt=INDT w=low
+NN pt=JJ ppt=DT pw=low ppw=a nw=of nnw=, ppt_pt=DTJJ w=bid
+IN pt=NN ppt=JJ pw=bid ppw=low nw=, nnw=say ppt_pt=JJNN w=of
+, pt=IN ppt=NN pw=of ppw=bid nw=say nnw=$ ppt_pt=NNIN w=,
+VB pt=, ppt=IN pw=, ppw=of nw=$ nnw=200 ppt_pt=IN, w=say
+$ pt=VB ppt=, pw=say ppw=, nw=200 nnw=a ppt_pt=,VB w=$
+CD pt=$ ppt=VB pw=$ ppw=say nw=a nnw=share ppt_pt=VB$ w=200
+DT pt=CD ppt=$ pw=200 ppw=$ nw=share nnw=, ppt_pt=$CD w=a
+NN pt=DT ppt=CD pw=a ppw=200 nw=, nnw=the ppt_pt=CDDT w=share
+, pt=NN ppt=DT pw=share ppw=a nw=the nnw=board ppt_pt=DTNN w=,
+DT pt=, ppt=NN pw=, ppw=share nw=board nnw=might ppt_pt=NN, w=the
+NN pt=DT ppt=, pw=the ppw=, nw=might nnw=n't ppt_pt=,DT w=board
+MD pt=NN ppt=DT pw=board ppw=the nw=n't nnw=be ppt_pt=DTNN w=might
+RB pt=MD ppt=NN pw=might ppw=board nw=be nnw=able ppt_pt=NNMD w=n't
+VB pt=RB ppt=MD pw=n't ppw=might nw=able nnw=to ppt_pt=MDRB w=be
+JJ pt=VB ppt=RB pw=be ppw=n't nw=to nnw=obtain ppt_pt=RBVB w=able
+TO pt=JJ ppt=VB pw=able ppw=be nw=obtain nnw=a ppt_pt=VBJJ w=to
+VB pt=TO ppt=JJ pw=to ppw=able nw=a nnw=higher ppt_pt=JJTO w=obtain
+DT pt=VB ppt=TO pw=obtain ppw=to nw=higher nnw=offer ppt_pt=TOVB w=a
+JJR pt=DT ppt=VB pw=a ppw=obtain nw=offer nnw=from ppt_pt=VBDT w=higher
+NN pt=JJR ppt=DT pw=higher ppw=a nw=from nnw=other ppt_pt=DTJJR w=offer
+IN pt=NN ppt=JJR pw=offer ppw=higher nw=other nnw=bidders ppt_pt=JJRNN w=from
+JJ pt=IN ppt=NN pw=from ppw=offer nw=bidders nnw=because ppt_pt=NNIN w=other
+NNS pt=JJ ppt=IN pw=other ppw=from nw=because nnw=banks ppt_pt=INJJ w=bidders
+IN pt=NNS ppt=JJ pw=bidders ppw=other nw=banks nnw=might ppt_pt=JJNNS w=because
+NNS pt=IN ppt=NNS pw=because ppw=bidders nw=might nnw=hesitate ppt_pt=NNSIN w=banks
+MD pt=NNS ppt=IN pw=banks ppw=because nw=hesitate nnw=to ppt_pt=INNNS w=might
+VB pt=MD ppt=NNS pw=might ppw=banks nw=to nnw=finance ppt_pt=NNSMD w=hesitate
+TO pt=VB ppt=MD pw=hesitate ppw=might nw=finance nnw=a ppt_pt=MDVB w=to
+VB pt=TO ppt=VB pw=to ppw=hesitate nw=a nnw=transaction ppt_pt=VBTO w=finance
+DT pt=VB ppt=TO pw=finance ppw=to nw=transaction nnw=the ppt_pt=TOVB w=a
+NN pt=DT ppt=VB pw=a ppw=finance nw=the nnw=pilots ppt_pt=VBDT w=transaction
+DT pt=NN ppt=DT pw=transaction ppw=a nw=pilots nnw=oppose ppt_pt=DTNN w=the
+NNS pt=DT ppt=NN pw=the ppw=transaction nw=oppose nnw=. ppt_pt=NNDT w=pilots
+VBP pt=NNS ppt=DT pw=pilots ppw=the nw=. ppt_pt=DTNNS w=oppose
+. pt=VBP ppt=NNS pw=oppose ppw=pilots ppt_pt=NNSVBP w=.
+RB nw=, nnw=because w=Also
+, pt=RB pw=Also nw=because nnw=UAL w=,
+IN pt=, ppt=RB pw=, ppw=Also nw=UAL nnw=Chairman ppt_pt=RB, w=because
+NNP pt=IN ppt=, pw=because ppw=, nw=Chairman nnw=Stephen ppt_pt=,IN w=UAL
+NNP pt=NNP ppt=IN pw=UAL ppw=because nw=Stephen nnw=Wolf ppt_pt=INNNP w=Chairman
+NNP pt=NNP ppt=NNP pw=Chairman ppw=UAL nw=Wolf nnw=and ppt_pt=NNPNNP w=Stephen
+NNP pt=NNP ppt=NNP pw=Stephen ppw=Chairman nw=and nnw=other ppt_pt=NNPNNP w=Wolf
+CC pt=NNP ppt=NNP pw=Wolf ppw=Stephen nw=other nnw=UAL ppt_pt=NNPNNP w=and
+JJ pt=CC ppt=NNP pw=and ppw=Wolf nw=UAL nnw=executives ppt_pt=NNPCC w=other
+NNP pt=JJ ppt=CC pw=other ppw=and nw=executives nnw=have ppt_pt=CCJJ w=UAL
+NNS pt=NNP ppt=JJ pw=UAL ppw=other nw=have nnw=joined ppt_pt=JJNNP w=executives
+VBP pt=NNS ppt=NNP pw=executives ppw=UAL nw=joined nnw=the ppt_pt=NNPNNS w=have
+VBN pt=VBP ppt=NNS pw=have ppw=executives nw=the nnw=pilots ppt_pt=NNSVBP w=joined
+DT pt=VBN ppt=VBP pw=joined ppw=have nw=pilots nnw=' ppt_pt=VBPVBN w=the
+NNS pt=DT ppt=VBN pw=the ppw=joined nw=' nnw=bid ppt_pt=VBNDT w=pilots
+POS pt=NNS ppt=DT pw=pilots ppw=the nw=bid nnw=, ppt_pt=DTNNS w='
+NN pt=POS ppt=NNS pw=' ppw=pilots nw=, nnw=the ppt_pt=NNSPOS w=bid
+, pt=NN ppt=POS pw=bid ppw=' nw=the nnw=board ppt_pt=POSNN w=,
+DT pt=, ppt=NN pw=, ppw=bid nw=board nnw=might ppt_pt=NN, w=the
+NN pt=DT ppt=, pw=the ppw=, nw=might nnw=be ppt_pt=,DT w=board
+MD pt=NN ppt=DT pw=board ppw=the nw=be nnw=forced ppt_pt=DTNN w=might
+VB pt=MD ppt=NN pw=might ppw=board nw=forced nnw=to ppt_pt=NNMD w=be
+VBN pt=VB ppt=MD pw=be ppw=might nw=to nnw=exclude ppt_pt=MDVB w=forced
+TO pt=VBN ppt=VB pw=forced ppw=be nw=exclude nnw=him ppt_pt=VBVBN w=to
+VB pt=TO ppt=VBN pw=to ppw=forced nw=him nnw=from ppt_pt=VBNTO w=exclude
+PRP pt=VB ppt=TO pw=exclude ppw=to nw=from nnw=its ppt_pt=TOVB w=him
+IN pt=PRP ppt=VB pw=him ppw=exclude nw=its nnw=deliberations ppt_pt=VBPRP w=from
+PRP$ pt=IN ppt=PRP pw=from ppw=him nw=deliberations nnw=in ppt_pt=PRPIN w=its
+NNS pt=PRP$ ppt=IN pw=its ppw=from nw=in nnw=order ppt_pt=INPRP$ w=deliberations
+IN pt=NNS ppt=PRP$ pw=deliberations ppw=its nw=order nnw=to ppt_pt=PRP$NNS w=in
+NN pt=IN ppt=NNS pw=in ppw=deliberations nw=to nnw=be ppt_pt=NNSIN w=order
+TO pt=NN ppt=IN pw=order ppw=in nw=be nnw=fair ppt_pt=INNN w=to
+VB pt=TO ppt=NN pw=to ppw=order nw=fair nnw=to ppt_pt=NNTO w=be
+JJ pt=VB ppt=TO pw=be ppw=to nw=to nnw=other ppt_pt=TOVB w=fair
+IN pt=JJ ppt=VB pw=fair ppw=be nw=other nnw=bidders ppt_pt=VBJJ w=to
+JJ pt=IN ppt=JJ pw=to ppw=fair nw=bidders nnw=. ppt_pt=JJIN w=other
+NNS pt=JJ ppt=IN pw=other ppw=to nw=. ppt_pt=INJJ w=bidders
+. pt=NNS ppt=JJ pw=bidders ppw=other ppt_pt=JJNNS w=.
+DT nw=could nnw=cost w=That
+MD pt=DT pw=That nw=cost nnw=him w=could
+VB pt=MD ppt=DT pw=could ppw=That nw=him nnw=the ppt_pt=DTMD w=cost
+PRP pt=VB ppt=MD pw=cost ppw=could nw=the nnw=chance ppt_pt=MDVB w=him
+DT pt=PRP ppt=VB pw=him ppw=cost nw=chance nnw=to ppt_pt=VBPRP w=the
+NN pt=DT ppt=PRP pw=the ppw=him nw=to nnw=influence ppt_pt=PRPDT w=chance
+TO pt=NN ppt=DT pw=chance ppw=the nw=influence nnw=the ppt_pt=DTNN w=to
+VB pt=TO ppt=NN pw=to ppw=chance nw=the nnw=outcome ppt_pt=NNTO w=influence
+DT pt=VB ppt=TO pw=influence ppw=to nw=outcome nnw=and ppt_pt=TOVB w=the
+NN pt=DT ppt=VB pw=the ppw=influence nw=and nnw=perhaps ppt_pt=VBDT w=outcome
+CC pt=NN ppt=DT pw=outcome ppw=the nw=perhaps nnw=join ppt_pt=DTNN w=and
+RB pt=CC ppt=NN pw=and ppw=outcome nw=join nnw=the ppt_pt=NNCC w=perhaps
+VB pt=RB ppt=CC pw=perhaps ppw=and nw=the nnw=winning ppt_pt=CCRB w=join
+DT pt=VB ppt=RB pw=join ppw=perhaps nw=winning nnw=bidder ppt_pt=RBVB w=the
+VBG pt=DT ppt=VB pw=the ppw=join nw=bidder nnw=. ppt_pt=VBDT w=winning
+NN pt=VBG ppt=DT pw=winning ppw=the nw=. ppt_pt=DTVBG w=bidder
+. pt=NN ppt=VBG pw=bidder ppw=winning ppt_pt=VBGNN w=.

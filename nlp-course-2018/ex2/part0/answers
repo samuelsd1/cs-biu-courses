@@ -1,0 +1,12 @@
+a. It happenes because of the following rules:
+1	NP	NP PP
+1	NP	Det Noun
+which are recursive. Noun can expand itself to Adj Noun infinite number of times, theoreticlly. same with NP, which can expand to NP PP.
+As a result, NP can turn to NP PP PP PP PP .... (PP infinite number of times).
+
+b. The rule Noun can turn to either of the following; Adj Noun, or to 5 different words.
+Therefore, there is a 16.66% that a noun will expand to Adj Noun, but from there, to enable Adj Adj Noun, it needs to expand to Adj Noun again, which is (1/6)^2. That is true for any length of adjective chain n: (1/6)^n
+
+c. Increase weight of non recursive rules solves a. I tried increasing the non recursive rule to 3, while the recursive rule has weight of 1, made the probability of the recursive and increasing weight of Noun -> Adj Noun to 6, will enhance the probability of it, and it will become less rare.
+
+

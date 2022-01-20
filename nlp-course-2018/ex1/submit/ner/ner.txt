@@ -1,0 +1,65 @@
+
+Accuracies:
+	HMM:
+		Greedy:
+			Per token :
+			Accuracy: 0.993349877855
+
+			Per span :
+			Accuracy: 0.929737484974
+			All-types       Prec:0.720052326668 Rec:0.648434870414
+				   LOC      Prec:0.796832332059 Rec:0.794229722373
+				  MISC      Prec:0.709832134293 Rec:0.642082429501
+				   PER      Prec:0.697513812155 Rec:0.548317046688
+				   ORG      Prec:0.639741518578 Rec:0.590604026846
+		
+		Viterbi:
+			Per token :
+			Accuracy: 0.991740664624
+			
+			Per Span :
+			Accuracy: 0.940265229361
+			All-types       Prec:0.778943424504 Rec:0.699764389095
+				   LOC      Prec:0.812229437229 Rec:0.817093086554
+				  MISC      Prec:0.785882352941 Rec:0.724511930586
+				   PER      Prec:0.786318758815 Rec:0.605320304017
+				   ORG      Prec:0.715220949264 Rec:0.651752423565
+
+	MEMM:
+		Greedy:
+			Per token:
+			Accuracy: 0.993330489744
+			
+			Per span :
+			Accuracy: 0.933207956881
+
+			All-types       Prec:0.873800383877 Rec:0.612924941097
+				   LOC      Prec:0.929122807018 Rec:0.720740337507
+				  MISC      Prec:0.889042995839 Rec:0.695227765727
+				   PER      Prec:0.875464684015 Rec:0.511400651466
+				   ORG      Prec:0.776955602537 Rec:0.548098434004
+
+		Viterbi:
+			Per token :
+			Accuracy: 0.993097832409
+			
+			Per span :
+			Accuracy: 0.93720190779
+			All-types       Prec:0.901014002897 Rec:0.628071356446
+				   LOC      Prec:0.938775510204 Rec:0.726183995645
+				  MISC      Prec:0.905160390516 Rec:0.703904555315
+				   PER      Prec:0.896584440228 Rec:0.513029315961
+				   ORG      Prec:0.846315789474 Rec:0.599552572707
+
+
+Why's :
+* Per token accuracy higher than per span:
+	Obviously, spans are multiple tokens together. One bad tag could ruin a whole span, while barely damaging
+	the per token accuracy.
+* HMM more precise than MEMM:
+	In my opinion, HMM is more precise because MEMM have bigger context (2 previous words, 2 previous tags, 2 next words),
+	while HMM's context is only 2 previous words and 2 previous tags.
+
+Improving MEMM on the NER data:
+	decrease the context size, not looking on the next words.
+
