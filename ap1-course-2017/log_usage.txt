@@ -1,0 +1,57 @@
+Log usage:
+--------------
+
+authors:
+--------------
+208788851_David_Samuelson
+204271415_Or_Borreda
+
+Usage:
+We used the second log, the easylogging++.
+took time to find the c++0x compiled version, but it was fine.
+I must say, the usage was really easy, and it was very helpful.
+
+there are mostly 3 options we used, INFO , DEBUG and PERFORMANCE.
+I choosed to use the INFO less, because it is confusing when it printed a message:
+if the INFO message is called inside some internal classes, it is very hard to trace them,
+and it does not support any useful information.
+For that, we used the DEBUG log in most of the internal classes, and the INFO log in the main.
+in addition, we used Performance log, to calculate the time it took to calculate a trip.
+
+In this project, the logging did not help us to debug the threads, we didnt have any problems with
+the threads.
+It actually helped us to find much more crucial bug:
+to communicate with the clients, we used directly the bind() and the accept() methods, without
+the given Socket,UDP,TCP wrapper classes.
+in mission 1, where we had to add clients, we did a for loop for each incoming connection,
+something like this:
+for(int currentConnections = 0; currentConnections < numOfClients; currentConnections++){
+    //pseudo code
+    accept();
+    addClient();
+}
+
+now, we took an example of how to use the accept(), and turned out there was a big mistake, leaded
+to memory overriding:
+
+in the original code we used, accept() took 3 parameters:
+unsigned int client_addr;
+unsigned int client_size;
+accept(server_socket, (struct sockaddr*) &client_addr, &client_size);
+
+we did not really touch this code, as we thought it would work just fine. we were wrong.
+When we started testing the program, the program just freezed on accept, but we saw using the logs we already accepted 2 clients.
+we started adding hell lots of logging prints, and thanks to it, we found that
+this accept() was overriding our currentConnections variable, caused the for to reset to 0,
+every time it was updated. it took time to realise this, we even changed it to a while - still, same effect.
+without the logs I am not sure we could handle this bug, because it is not a visible one.
+
+there was no warning, the program just stuck because it tried to accept 3rd client when we inputted 2.
+
+to fix that bug, i read about the accept, and foudn out that if we do not use this client addr,
+we should just send NULL ptrs like this:
+accept(server_socket, NULL, NULL);
+it fixed the problem, but we came to a situation that caused us to be really depressed about this
+project, and this logs saved us.
+
+in conclusion, I think i will add this log in every program I write, make the life much easier.

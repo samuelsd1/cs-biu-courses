@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="AP1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\googletest-master\;CMake Files\lib\googletest-master\googlemock\;CMake Files\lib\googletest-master\googletest\;CMake Files\lib\googletest-master\googletest\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/david/ClionProjects/AP1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/david/ClionProjects/AP1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/david/ClionProjects/AP1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/david/ClionProjects/AP1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/david/ClionProjects/AP1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runUnitTests">
+				<Option output="/home/david/ClionProjects/AP1/cmake-build-debug/runUnitTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/ClionProjects/AP1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/david/ClionProjects/AP1/lib/googletest-master/googletest/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 runUnitTests"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runUnitTests/fast">
+				<Option output="/home/david/ClionProjects/AP1/cmake-build-debug/runUnitTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/ClionProjects/AP1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/david/ClionProjects/AP1/lib/googletest-master/googletest/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 runUnitTests/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="client">
+				<Option output="/home/david/ClionProjects/AP1/cmake-build-debug/client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/ClionProjects/AP1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/david/ClionProjects/AP1/lib/googletest-master/googletest/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 client"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="client/fast">
+				<Option output="/home/david/ClionProjects/AP1/cmake-build-debug/client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/ClionProjects/AP1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/david/ClionProjects/AP1/lib/googletest-master/googletest/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 client/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server">
+				<Option output="/home/david/ClionProjects/AP1/cmake-build-debug/server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/ClionProjects/AP1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/david/ClionProjects/AP1/lib/googletest-master/googletest/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 server"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server/fast">
+				<Option output="/home/david/ClionProjects/AP1/cmake-build-debug/server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/ClionProjects/AP1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/david/ClionProjects/AP1/lib/googletest-master/googletest/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 server/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/david/ClionProjects/AP1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/david/ClionProjects/AP1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sockets">
+				<Option output="/home/david/ClionProjects/AP1/cmake-build-debug/libsockets.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/ClionProjects/AP1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/david/ClionProjects/AP1/lib/googletest-master/googletest/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 sockets"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sockets/fast">
+				<Option output="/home/david/ClionProjects/AP1/cmake-build-debug/libsockets.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/ClionProjects/AP1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/david/ClionProjects/AP1/lib/googletest-master/googletest/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 sockets/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main">
+				<Option output="/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/david/ClionProjects/AP1/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/david/ClionProjects/AP1/lib/googletest-master/googlemock"/>
+					<Add directory="/home/david/ClionProjects/AP1/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/david/ClionProjects/AP1/lib/googletest-master/googletest"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main/fast">
+				<Option output="/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/david/ClionProjects/AP1/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/david/ClionProjects/AP1/lib/googletest-master/googlemock"/>
+					<Add directory="/home/david/ClionProjects/AP1/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/david/ClionProjects/AP1/lib/googletest-master/googletest"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/david/ClionProjects/AP1/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/david/ClionProjects/AP1/lib/googletest-master/googlemock"/>
+					<Add directory="/home/david/ClionProjects/AP1/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/david/ClionProjects/AP1/lib/googletest-master/googletest"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock/fast">
+				<Option output="/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/david/ClionProjects/AP1/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/david/ClionProjects/AP1/lib/googletest-master/googlemock"/>
+					<Add directory="/home/david/ClionProjects/AP1/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/david/ClionProjects/AP1/lib/googletest-master/googletest"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/david/ClionProjects/AP1/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/david/ClionProjects/AP1/lib/googletest-master/googletest"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/david/ClionProjects/AP1/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/david/ClionProjects/AP1/lib/googletest-master/googletest"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/david/ClionProjects/AP1/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/david/ClionProjects/AP1/lib/googletest-master/googletest"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/david/ClionProjects/AP1/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/david/ClionProjects/AP1/lib/googletest-master/googletest"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/david/ClionProjects/AP1/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/david/ClionProjects/AP1/Tests/BfsTest.cpp">
+			<Option target="runUnitTests"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/Tests/DriverFactoryTest.cpp">
+			<Option target="runUnitTests"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/Tests/DriverTest.cpp">
+			<Option target="runUnitTests"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/Tests/GraphNodeTest.cpp">
+			<Option target="runUnitTests"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/Tests/LuxuryCabTest.cpp">
+			<Option target="runUnitTests"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/Tests/MapTest.cpp">
+			<Option target="runUnitTests"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/Tests/PointTest.cpp">
+			<Option target="runUnitTests"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/Tests/TaxiCenterTest.cpp">
+			<Option target="runUnitTests"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/Tests/TaxiFactoryTest.cpp">
+			<Option target="runUnitTests"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/Tests/TripInfoFactoryTest.cpp">
+			<Option target="runUnitTests"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/Tests/TripInfoTest.cpp">
+			<Option target="runUnitTests"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/Tests/TripTest.cpp">
+			<Option target="runUnitTests"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/Tests/VehicleTest.cpp">
+			<Option target="runUnitTests"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/Tests/tests_main.cpp">
+			<Option target="runUnitTests"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/lib/googletest-master/googlemock/src/gmock-all.cc">
+			<Option target="gmock_main"/>
+			<Option target="gmock"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/lib/googletest-master/googlemock/src/gmock_main.cc">
+			<Option target="gmock_main"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/lib/googletest-master/googletest/src/gtest-all.cc">
+			<Option target="gmock_main"/>
+			<Option target="gmock"/>
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/lib/googletest-master/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/lib/sockets/Socket.cpp">
+			<Option target="sockets"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/lib/sockets/Socket.h">
+			<Option target="sockets"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/lib/sockets/Tcp.cpp">
+			<Option target="sockets"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/lib/sockets/Tcp.h">
+			<Option target="sockets"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/lib/sockets/Udp.cpp">
+			<Option target="sockets"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/lib/sockets/Udp.h">
+			<Option target="sockets"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Client/Server.cpp">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Client/Server.h">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Client/client_main.cpp">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Core/Connection/Command.h">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Core/Connection/Communicable.cpp">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Core/Connection/Communicable.h">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Core/Connection/Message.h">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Core/Entities/Driver.cpp">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Core/Entities/Driver.h">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Core/Map.cpp">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Core/Map.h">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Core/Point.cpp">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Core/Point.h">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Core/Serialization/Serialization.h">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Core/Threading/PoolWorkerThread.cpp">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Core/Threading/PoolWorkerThread.h">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Core/Threading/Task.h">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Core/Threading/Thread.cpp">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Core/Threading/Thread.h">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Core/Threading/ThreadPool.cpp">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Core/Threading/ThreadPool.h">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Core/Threading/WorkQueue.cpp">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Core/Threading/WorkQueue.h">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Core/Trip/Trip.cpp">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Core/Trip/Trip.h">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Core/Trip/TripEndedListener.h">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Core/Trip/TripEndedNotifier.cpp">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Core/Trip/TripEndedNotifier.h">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Core/Trip/TripInfo.cpp">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Core/Trip/TripInfo.h">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Core/Vehicles/LuxuryCab.cpp">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Core/Vehicles/LuxuryCab.h">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Core/Vehicles/Taxi.cpp">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Core/Vehicles/Taxi.h">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Core/Vehicles/Vehicle.cpp">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Core/Vehicles/Vehicle.h">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Graph/BFS.cpp">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Graph/BFS.h">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Graph/GraphAlgorithm.h">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Graph/GraphNode.h">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Server/Client.cpp">
+			<Option target="runUnitTests"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Server/Client.h">
+			<Option target="runUnitTests"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Server/Server.cpp">
+			<Option target="runUnitTests"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Server/Server.h">
+			<Option target="runUnitTests"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Server/ServerFlow.cpp">
+			<Option target="runUnitTests"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Server/ServerFlow.h">
+			<Option target="runUnitTests"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Server/TaxiCenter/DriverDatabase.cpp">
+			<Option target="runUnitTests"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Server/TaxiCenter/DriverDatabase.h">
+			<Option target="runUnitTests"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Server/TaxiCenter/DriverInfo.h">
+			<Option target="runUnitTests"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Server/TaxiCenter/TaxiCenter.cpp">
+			<Option target="runUnitTests"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Server/TaxiCenter/TaxiCenter.h">
+			<Option target="runUnitTests"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Server/server_main.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Util/DriverInput.h">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Util/Factories/DriverFactory.cpp">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Util/Factories/DriverFactory.h">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Util/Factories/TaxiFactory.cpp">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Util/Factories/TaxiFactory.h">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Util/Factories/TripInfoFactory.cpp">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Util/Factories/TripInfoFactory.h">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Util/InputParser.cpp">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/src/Util/InputParser.h">
+			<Option target="runUnitTests"/>
+			<Option target="client"/>
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/lib/googletest-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\googletest-master\"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/lib/googletest-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\googletest-master\"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/lib/googletest-master/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\googletest-master\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/lib/googletest-master/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\googletest-master\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/lib/googletest-master/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\googletest-master\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/lib/googletest-master/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/lib/googletest-master/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/lib/googletest-master/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/lib/googletest-master/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/lib/googletest-master/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/lib/googletest-master/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/lib/googletest-master/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/david/ClionProjects/AP1/lib/googletest-master/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\lib\googletest-master\googletest\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
