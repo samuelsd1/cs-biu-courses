@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+
+    <script src="Script/Plugin.MazeBoard.js"></script>
+    <script src="Script/SinglePlayer.js"></script>
+
+
+    <link type="text/css" href="Content/SinglePlayer.css" rel="stylesheet">
+    <link rel="icon" href="Source/מפתח.jpg">
+    <title>Single player</title>
+</head>
+<body background="Source/sea-bay-waterfront-beach-50594.jpeg">
+    <div class="container">
+
+        <header id="site-header"></header>
+
+        <div class="modal-body row">
+            <aside class="pull-left">
+                <form id="requestForm">
+                    <div class="form-group">
+                        <label> Game Name</label>
+                        <input id="name" type="text" class="form-control" placeholder="Enter Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="Cols"> Game Cols</label>
+                        <input id="Cols" type="text" class="form-control" placeholder="Enter Cols">
+                    </div>
+                    <div class="form-group">
+                        <label > Game Rows</label>
+                        <input id="Rows" type="text" class="form-control" placeholder="Enter Rows">
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="btn-lg btn-success bg-danger" id="startButton" /> Start Game
+                    </div>
+                    <div class="form-group">
+                        <label class="text-capitalize text-warning bg-info">Search Algo</label>
+                        <select id="algos" class="form-group">
+                            <optgroup label="Algorithms">
+                                <option value="BFS">BFS</option>
+                                <option value="DFS">DFS</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <button id="solveButton" class="btn-lg btn-warning"> Solve Game</button>
+                    </div>
+                    <div class="form-group">
+                        <button id="restartButton" class="btn-lg btn-info"> Restart Game</button>
+                    </div>
+                </form>
+            </aside>
+
+            <aside id="mazePlace" data-pos="1,1" class="pull-right table-bordered">
+                <canvas id="mazeCanvas" width="640" height="640"></canvas>
+            </aside>
+            <img id="playerImage" src="Source/מפתח.jpg" />
+            <img id="endImage" src="Source/csgo.0.jpg" />
+        </div>
+    </div>
+</body>
+</html>

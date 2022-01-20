@@ -1,0 +1,71 @@
+
+h1 {
+    color: cadetblue;
+}
+
+#headText {
+    text-align: center;
+}
+
+#navBar {
+    background: black;
+    padding: 10px 20px 10px 4px;
+}
+
+#navBar a {
+    color: white;
+    display: inline;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+#register{
+    position: absolute;
+    right: 70px;
+}
+#logIn{
+    position: absolute;
+    right: 0;
+}
+div#wrap {
+    position: relative;
+    margin: auto;
+    width: 1200px;
+    height: 800px;
+}
+
+audio#eden {
+    position: relative;
+    width: 70%;
+    visibility: hidden;
+}
+
+#logo {
+    float: left;
+}
+
+#surprise:visited {
+    color: red;
+}
+
+a:active {
+    color: aquamarine
+}
+
+a#surprise {
+    color: red;
+    text-decoration:none;
+    font-size: 120%;
+}
+
+a:hover {
+    color: darkgoldenrod
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    bottom: 0;
+}

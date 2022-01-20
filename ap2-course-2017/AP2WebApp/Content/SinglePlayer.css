@@ -1,0 +1,18 @@
+
+img{
+    display: none;
+}
+body {
+    background-size: cover;
+}
+#mazeCanvas{
+    height: 100%;
+    width: 100%;
+    background: #F8F8FF;
+    background-size: auto;
+    border: yellow;
+}
+#mazePlace {
+    width: 70%;
+    height: 500px; /*todo how to make responsive*/
+}

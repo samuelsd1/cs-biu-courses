@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link type="text/css" href="Content/Ranking.css" rel="stylesheet">
+    <link rel="icon" href="Source/מפתח.jpg">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+
+</head>
+<body background="Source/landmark-bridge-cliff-california.jpeg">
+
+    <div class="container">
+
+        <header id="site-header">
+        </header>
+
+        <form id="settingForm">
+
+            <div>
+                <select id="algos" class="form-group">
+                    <optgroup label="Algorithms">
+                        <option selected="selected">BFS</option>
+                        <option>DFS</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="rows" class="text-capitalize text-success bg-warning">Default Row Number</label>
+                <input type="text" placeholder="enter row number" class="form-control" id="rows">
+            </div>
+
+            <div class="form-group">
+                <label for="cols" class="text-capitalize text-success bg-warning">Default Col Number</label>
+                <input type="text" placeholder="enter col number" class="form-control" id="cols">
+            </div>
+            <button type="button" class="btn tn-default" onclick="Store()">Submit</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    <script src="Script/SettingsJS.js"></script>
+</body>
+</html>

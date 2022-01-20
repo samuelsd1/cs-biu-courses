@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html ng-app="rankModule" lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <link rel="icon" href="Source/מפתח.jpg">
+    <link type="text/css" href="Content/Ranking.css" rel="stylesheet">
+    <title>ranking</title>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="Script/Ranking.js"></script>
+</head>
+<body ng-controller="rankController" background="Source/windows_computer_operating_system_emblem_93941_2560x1440.jpg">
+<div class="container">
+
+    <header id="site-header">
+    </header>
+
+    <table id="rankTable" class="table">
+        <thead>
+            <tr>
+                <th class="text-capitalize text-justify ">Rank</th>
+                <th class="text-capitalize text-justify ">Firstname</th>
+                <th class="text-capitalize text-success ">Losses</th>
+                <th class="text-capitalize text-success">Wins</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="record in records | orderBy: 'loss - win' | limitTo: 10">
+                <td>
+                    {{$index + 1}}
+                </td>
+                <td>
+                    {{ record.username }}
+                </td>
+                <td>
+                    {{record.loss}}
+                </td>
+                <td>
+                    {{record.win}}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

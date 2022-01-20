@@ -1,0 +1,30 @@
+
+img{
+    display: none;
+}
+body {
+    background-size: cover;
+}
+
+button{
+    display: block;
+    width: 100%;
+}
+
+.mazeCanvas{
+    background: #F8F8FF;
+    background-size: auto;
+    border: yellow;
+}
+#mazePlace {
+    width: 70%;
+    height: 500px; /*todo how to make responsive*/
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,103 @@
+* commit 20fb8853cee650ec9d9fdf34b10689d2660c678a
+| Author: haim <haim6678@gmail.com>
+| Date:   Tue Jun 27 20:52:41 2017 +0300
+| 
+|     with comments
+| 
+* commit 3fdbcc94dccec5fb0b3c4436e5a57f100652ae01
+| Author: David Samuelson <sdavid1407@gmail.com>
+| Date:   Sun Jun 25 21:57:27 2017 +0300
+| 
+|     Again, last finishes
+| 
+* commit 68dd6539cdb1e7ae621917dad50a859dad0076f2
+| Author: David Samuelson <sdavid1407@gmail.com>
+| Date:   Sun Jun 25 19:36:42 2017 +0300
+| 
+|     Added the database to the source control
+| 
+* commit fc257619b2ea389f3fbaf29365f0b91054ef8732
+| Author: David Samuelson <sdavid1407@gmail.com>
+| Date:   Sun Jun 25 17:17:15 2017 +0300
+| 
+|     Last Finishes.
+|     
+|     Made the update of the win/loss of players in the database after each game, kinda in a dirty way but its ok.
+|     
+|     Updated the login page, to match the register page. nice ui, etc...
+|     
+|     changed the navbar so the login and register buttons will be just links, because of buggy representation.
+| 
+* commit e8aeecdf810a9e1dceb1e9db48e532babd61dd28
+| Author: David Samuelson <sdavid1407@gmail.com>
+| Date:   Sat Jun 24 06:06:39 2017 +0300
+| 
+|     Worked too much to remember what i did.
+|     fixed drawing and singleplayer.
+|     finished registesr window.
+|     alot more.
+| 
+* commit 597001c9560c6c876fa758d480eaa7f4cca234f1
+| Author: haim rubinstein <haim6678@gmail.com>
+| Date:   Sun Jun 18 23:11:28 2017 +0300
+| 
+|     currently draing the maze correctly. also my movement is updated on screen. follow the todo in multiplayer hub and in the js file
+| 
+* commit 5f60adb14f96fae6aca30f99cd83b562266b080c
+| Author: David Samuelson <sdavid1407@gmail.com>
+| Date:   Sun Jun 18 15:17:48 2017 +0300
+| 
+|     Did more preperations for haim to work on the drawing of the mazes.
+|     Added more logic the the multi, parsed the maze, and added nice comments.
+| 
+* commit 319300fd6fcce225994e65ac106c71ed65966c91
+| Author: David Samuelson <sdavid1407@gmail.com>
+| Date:   Sun Jun 18 14:39:54 2017 +0300
+| 
+|     Refactord the SinglePlayer
+| 
+* commit 4835fa7758dbb6d0e09d24bd86386a6621173b0c
+| Author: haim rubinstein <haim6678@gmail.com>
+| Date:   Sun Jun 18 14:32:18 2017 +0300
+| 
+|     hey d
+| 
+* commit d510d5bab9065567a243c037032d73cd3caeb240
+| Author: haim rubinstein <haim6678@gmail.com>
+| Date:   Sun Jun 18 14:28:52 2017 +0300
+| 
+|     first commit
+| 
+* commit f6e5013df5f0276e42f78c53df7435a3fbdbbeb3
+| Author: David Samuelson <sdavid1407@gmail.com>
+| Date:   Sun Jun 18 02:58:59 2017 +0300
+| 
+|     Removed ServerModel project
+| 
+* commit 4da9aa77c78d0c59f3ca0063ce3a34dc690b47cb
+| Author: David Samuelson <sdavid1407@gmail.com>
+| Date:   Sun Jun 18 02:38:52 2017 +0300
+| 
+|     Continued the multiplayer, added more functionality
+| 
+* commit de9a38f92560ccd18d1810ca533094b27d0a3866
+| Author: David Samuelson <sdavid1407@gmail.com>
+| Date:   Sat Jun 17 23:52:52 2017 +0300
+| 
+|     Fixed the login and register system.
+|     refactoring here and there...
+| 
+* commit b5b5df6010807ba8f65913eea62232570897cbe4
+| Author: David Samuelson <sdavid1407@gmail.com>
+| Date:   Sat Jun 17 01:37:23 2017 +0300
+| 
+|     Created the project,
+|     Fixed the JSON problem that prevented the site to work.
+|     Integrated the Multiplayer model into the web server.
+|     and many more...
+| 
+* commit cecf765e2eec6711fe77e3d3d7b9cf05c80bf112
+  Author: David Samuelson <sdavid1407@gmail.com>
+  Date:   Tue Jun 13 14:26:33 2017 +0300
+  
+      Add .gitignore and .gitattributes.
